@@ -1,0 +1,22 @@
+{
+  "name": "doument",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "commonjs",
+  "dependencies": {
+    "cloudinary": "^2.9.0",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.0",
+    "multer": "^2.0.2"
+  }
+}
