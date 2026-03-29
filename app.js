@@ -16,6 +16,10 @@ if(process.env.MONGO_URI) {
     .catch((err) => console.error(err));
 }
 
+app.get('/', (req, res) => {
+  res.send('Server is running 🚀');
+});
+
 app.use('/api', router);
 
 const PORT = process.env.PORT || 3000;
