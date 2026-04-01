@@ -17,7 +17,7 @@ if(process.env.MONGO_URI) {
 }
 
 app.get('/', (req, res) => {
-  res.send('Server is running 🚀');
+  res.send('Server is running');
 });
 
 app.use('/api', router);
